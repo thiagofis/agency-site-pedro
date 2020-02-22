@@ -1,10 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<footer>
+    <div class="container">
+        <div class="main-content">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo">
+                        <img src="{{ '/assets/images/white-logo.png'| relative_url }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li>
+                            <h6>Rio de Janeiro</h6>
+                            <span class="street">Avenida Nossa Senhora de Copacabana, 530</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li>
+                            <h6>Novos negócios</h6>
+                            <span>Interessado em trabalhar com a gente?</span>
+                            <a href="#">nossoemail@email.com</a>
+                        </li>
 
-</body>
-</html>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul>
+                        <li>
+                            <h6>Telefone</h6>
+                            <span>(21) 999-9999</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>© Copyright {{ 'now' | date: "%Y" }}, Agência.</p>
+                </div>
+                <div class="col-lg-6">
+                    <p class="rights">Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
